@@ -8,7 +8,7 @@ print_params(c = [1, 2, 3])
 
 #2.Распаковка параметров
 values_list = [False, 9, 'Привет']
-values_dict = {'result' : False, 'numb' : 9, 'word' : 'Привет'}
+values_dict = {'a' : False, 'b' : 9, 'c' : 'Привет'}
 
 print_params(*values_list)
 print_params(**values_dict)
